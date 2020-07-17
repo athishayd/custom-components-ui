@@ -23,8 +23,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
- import Onboarding from './src/components/onboarding/Onboarding.js';
- import LeadershipBehaviour from './src/components/leadershipBehaviour/LeadershipBehaviour';
+import Onboarding from './src/components/onboarding/Onboarding.js';
+import LeadershipBehaviour from './src/components/leadershipBehaviour/LeadershipBehaviour';
+import ProposeMeeting from './src/components/proposeMeeting/ProposeMeeting';
 import Statusbar from './src/components/statusbar/index';
 
 const App: () => React$Node = () => {
@@ -33,6 +34,7 @@ const App: () => React$Node = () => {
       <Statusbar />
       {/* <Onboarding /> */}
       <LeadershipBehaviour />
+      {/* <ProposeMeeting /> */}
     </>
   );
 };

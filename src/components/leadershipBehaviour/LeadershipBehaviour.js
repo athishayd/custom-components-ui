@@ -7,7 +7,7 @@ const LeaderhipBehaviour = (props) => {
   const step = 1;
   const stepper = 25;
   const maxValue = 100;
-  const previousScore = 20;
+  const previousScore = 90;
   
   const stepNumbers = Array.from({length: maxValue / stepper + 1}).fill(0);
   const blockwidthPrev = Dimensions.get('window').width - 39;
