@@ -33,8 +33,8 @@ const App: () => React$Node = () => {
     <>
       <Statusbar />
       {/* <Onboarding /> */}
-      <LeadershipBehaviour />
-      {/* <ProposeMeeting /> */}
+      {/* <LeadershipBehaviour /> */}
+      <ProposeMeeting />
     </>
   );
 };
